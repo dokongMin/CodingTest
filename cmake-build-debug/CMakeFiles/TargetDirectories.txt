@@ -1,0 +1,3 @@
+/Users/min/Desktop/CodingTest/CodingTest/CodingTest/cmake-build-debug/CMakeFiles/CodingTest.dir
+/Users/min/Desktop/CodingTest/CodingTest/CodingTest/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/min/Desktop/CodingTest/CodingTest/CodingTest/cmake-build-debug/CMakeFiles/rebuild_cache.dir
