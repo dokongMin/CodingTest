@@ -49,33 +49,12 @@ cmake_ninja_workdir = /Users/min/Desktop/CodingTest/CodingTest/CodingTest/cmake-
 
 build cmake_object_order_depends_target_CodingTest: phony || CMakeFiles/CodingTest.dir
 
-build CMakeFiles/CodingTest.dir/43.cpp.o: CXX_COMPILER__CodingTest_Debug /Users/min/Desktop/CodingTest/CodingTest/CodingTest/43.cpp || cmake_object_order_depends_target_CodingTest
-  DEP_FILE = CMakeFiles/CodingTest.dir/43.cpp.o.d
+build CMakeFiles/CodingTest.dir/codetree/0624-1.cpp.o: CXX_COMPILER__CodingTest_Debug /Users/min/Desktop/CodingTest/CodingTest/CodingTest/codetree/0624-1.cpp || cmake_object_order_depends_target_CodingTest
+  DEP_FILE = CMakeFiles/CodingTest.dir/codetree/0624-1.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14
   INCLUDES = -I/Users/min/Desktop/CodingTest/CodingTest/CodingTest/.
   OBJECT_DIR = CMakeFiles/CodingTest.dir
-  OBJECT_FILE_DIR = CMakeFiles/CodingTest.dir
-
-build CMakeFiles/CodingTest.dir/43-2.cpp.o: CXX_COMPILER__CodingTest_Debug /Users/min/Desktop/CodingTest/CodingTest/CodingTest/43-2.cpp || cmake_object_order_depends_target_CodingTest
-  DEP_FILE = CMakeFiles/CodingTest.dir/43-2.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14
-  INCLUDES = -I/Users/min/Desktop/CodingTest/CodingTest/CodingTest/.
-  OBJECT_DIR = CMakeFiles/CodingTest.dir
-  OBJECT_FILE_DIR = CMakeFiles/CodingTest.dir
-
-build CMakeFiles/CodingTest.dir/44.cpp.o: CXX_COMPILER__CodingTest_Debug /Users/min/Desktop/CodingTest/CodingTest/CodingTest/44.cpp || cmake_object_order_depends_target_CodingTest
-  DEP_FILE = CMakeFiles/CodingTest.dir/44.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14
-  INCLUDES = -I/Users/min/Desktop/CodingTest/CodingTest/CodingTest/.
-  OBJECT_DIR = CMakeFiles/CodingTest.dir
-  OBJECT_FILE_DIR = CMakeFiles/CodingTest.dir
-
-build CMakeFiles/CodingTest.dir/44-2.cpp.o: CXX_COMPILER__CodingTest_Debug /Users/min/Desktop/CodingTest/CodingTest/CodingTest/44-2.cpp || cmake_object_order_depends_target_CodingTest
-  DEP_FILE = CMakeFiles/CodingTest.dir/44-2.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14
-  INCLUDES = -I/Users/min/Desktop/CodingTest/CodingTest/CodingTest/.
-  OBJECT_DIR = CMakeFiles/CodingTest.dir
-  OBJECT_FILE_DIR = CMakeFiles/CodingTest.dir
+  OBJECT_FILE_DIR = CMakeFiles/CodingTest.dir/codetree
 
 
 # =============================================================================
@@ -85,7 +64,7 @@ build CMakeFiles/CodingTest.dir/44-2.cpp.o: CXX_COMPILER__CodingTest_Debug /User
 #############################################
 # Link the executable CodingTest
 
-build CodingTest: CXX_EXECUTABLE_LINKER__CodingTest_Debug CMakeFiles/CodingTest.dir/43.cpp.o CMakeFiles/CodingTest.dir/43-2.cpp.o CMakeFiles/CodingTest.dir/44.cpp.o CMakeFiles/CodingTest.dir/44-2.cpp.o
+build CodingTest: CXX_EXECUTABLE_LINKER__CodingTest_Debug CMakeFiles/CodingTest.dir/codetree/0624-1.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/CodingTest.dir
   POST_BUILD = :
