@@ -6,4 +6,4 @@ set(CMAKE_CXX_STANDARD 14)
 include_directories(.)
 
 add_executable(CodingTest
-        codetree/0629-2.cpp)
+        codetree/0706-1.cpp)
